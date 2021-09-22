@@ -8,11 +8,11 @@ import Sum from "../Topics/Sum.js";
 
 let TopicBrowser = () => {
   return React.createElement("div", null, [
-    EvenAndOdd(),
-    FilterObject(),
-    FilterString(),
-    Palindrome(),
-    Sum(),
+    <EvenAndOdd />,
+    <FilterObject />,
+    <FilterString />,
+    <Palindrome />,
+    <Sum />,
   ]);
 };
 
